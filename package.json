@@ -1,0 +1,41 @@
+{
+  "name": "pandora-web-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "files": [
+    "dist",
+    "src",
+    "assets"
+  ],
+  "bugs": {
+    "url": "https://github.com/pandora-innovations/pandora-web-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandora-innovations/pandora-web-site.git"
+  },
+  "homepage": "https://github.com/pandora-innovations/pandora-web-site#readme",
+  "author": "Pandora Innovations Team",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "scripts": {
+    "start": "npx tailwindcss -i ./global.css -o ./dist/output.css --watch"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
